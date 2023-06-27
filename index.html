@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <style>
+        .body{
+            margin: 0;
+            padding: 0;
+        }
+        .chats{
+            display: flex;
+            flex: auto;
+        }
+        .twitch, .kick{
+            width: 50%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chats">
+        <div class="twitch">
+        <iframe src="https://www.twitch.tv/embed/hidecomponent/chat?darkpopout&parent=roktrbl.github.io"
+            height="100%"
+            width="100%">
+    </iframe>
+        </div>
+        <div class="kick">
+            <iframe src="https://kick.com/hidecomponent/chatroom" height="100%" width="100%">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
